@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F3F3F3;
+    width: 1120px;
+    height: 1016px;
+    margin: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 97%;
+    color: #181717;
+    margin-bottom: 147px;
+}
+
+header div {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 147px;
+}
+
+.section1 .left1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 .left1 h1 {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 97%;
+    color: #181717;
+}
+
+.section1 .left1 p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 117%;
+    color: #606060;
+    margin-top: 47px;
+
+}
+
+.section1 .right1 {
+    width: 457px;
+    height: 405px;
+    background-color: #606060;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.section2 .right2 p {
+    margin-bottom: 86px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 122%;
+    color: #181717;
+}
+
+.section2 .left2 p {
+    margin-bottom: 120px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 122%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #181717;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: #181717;
+}
+
+.section3 .left3 .image {
+    background-image: url(image.png);
+    width: 24px;
+    height: 21px;
+    color: #181717;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 .right3{
+    margin-right: 160px;
+    margin-top: 63px;
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+}
+.section3 .left3 {
+    display: flex;
+    gap: 41px;
+    margin-top: 71px; 
+}
+.section3 .left3 p{
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+color: #181717;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 135px;
+    padding-bottom: 172px;
+}
+footer .right4{
+    display: flex;
+    gap: 20px;
+    font-family: DM Sans;
+font-weight: 500;
+font-size: 22px;
+line-height: 120%;
+color: #181717;
+}
+footer .left4{
+    font-family: DM Sans;
+font-weight: 500;
+font-size: 22px;
+line-height: 120%;
+color: #2429AF;
+}
