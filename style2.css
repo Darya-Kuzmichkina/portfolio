@@ -6,15 +6,14 @@
 body {
     width: 1120px;
     margin: auto;
-    color: #F3F3F3;
-
+    background: #F3F3F3;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
+    margin-top: 95px;
 }
 
 header .nav {
@@ -57,13 +56,17 @@ main p {
     margin-bottom: 52px;
 }
 
+main .section input {
+    background: #FFFFFF;
+}
+
 main .section .inp .up {
     display: block;
     width: 578px;
     height: 50px;
     border: 1px solid #C4C4C4;
     margin-bottom: 15px;
-
+    border-radius: 5px;
 }
 
 main .section .inp .down {
@@ -71,8 +74,7 @@ main .section .inp .down {
     width: 578px;
     height: 50px;
     border: 1px solid #C4C4C4;
-
-
+    border-radius: 5px;
 }
 
 main .section {
@@ -85,6 +87,7 @@ input::placeholder {
     font-weight: 400;
     font-size: 15px;
     color: #C4C4C4;
+    padding-left: 20px;
 }
 
 button {
@@ -104,28 +107,30 @@ main .text {
     font-weight: 400;
     font-size: 22px;
     color: #606060;
-    margin-left: 32px;
-
+    margin-left: 90px;
 }
+
 footer {
     display: flex;
     justify-content: space-between;
     margin-top: 135px;
     padding-bottom: 172px;
 }
-footer .right{
+
+footer .right {
     display: flex;
     gap: 20px;
     font-family: DM Sans;
-font-weight: 500;
-font-size: 22px;
-line-height: 120%;
-color: #181717;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    color: #181717;
 }
-footer .left{
+
+footer .left {
     font-family: DM Sans;
-font-weight: 500;
-font-size: 22px;
-line-height: 120%;
-color: #2429AF;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    color: #2429AF;
 }

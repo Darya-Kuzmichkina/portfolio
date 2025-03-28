@@ -8,14 +8,12 @@ body {
     width: 1120px;
     height: 1016px;
     margin: auto;
-
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 header h1 {
@@ -53,7 +51,6 @@ header div {
     line-height: 117%;
     color: #606060;
     margin-top: 47px;
-
 }
 
 .section1 .right1 {
@@ -106,49 +103,56 @@ header div {
     height: 21px;
     color: #181717;
 }
-.section3{
+
+.section3 {
     display: flex;
     justify-content: space-between;
 }
-.section3 .right3{
+
+.section3 .right3 {
     margin-right: 160px;
     margin-top: 63px;
     font-family: DM Sans;
-font-weight: 400;
-font-size: 32px;
-line-height: 117%;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
 }
+
 .section3 .left3 {
     display: flex;
     gap: 41px;
-    margin-top: 71px; 
+    margin-top: 71px;
 }
-.section3 .left3 p{
+
+.section3 .left3 p {
     font-family: DM Sans;
-font-weight: 400;
-font-size: 32px;
-line-height: 117%;
-color: #181717;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+    color: #181717;
 }
+
 footer {
     display: flex;
     justify-content: space-between;
     margin-top: 135px;
     padding-bottom: 172px;
 }
-footer .right4{
+
+footer .right4 {
     display: flex;
     gap: 20px;
     font-family: DM Sans;
-font-weight: 500;
-font-size: 22px;
-line-height: 120%;
-color: #181717;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    color: #181717;
 }
-footer .left4{
+
+footer .left4 {
     font-family: DM Sans;
-font-weight: 500;
-font-size: 22px;
-line-height: 120%;
-color: #2429AF;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    color: #2429AF;
 }
